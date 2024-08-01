@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/* this  css  changing the  bacground color  of the page  */
+.form-background {
+  background-image: linear-gradient(60deg, #5572ac, #25104a);
+  padding: 1rem;
+  border-radius: 6.5rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .form-background {
+  background-color: blue;
+  color: white;
+  padding: 1rem;
+  border-radius: 6.5rem;
+} */
+
+/* adding css to tag line  part */
+.tag {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #dcdfe3;
 }
+
+/* adding hover  effect  to chan  color  just hover wen we  on that button */
+button:hover {
+  background-color: #0f78be;
+}
+
+
+
+/* adding style  on the button like a  back and  custo list button  */
+.custom-button {
+  float: right;
+  margin-right: 10px;
+  margin-top: -48px;
+}
+
+/* from  bacground change  */
+.custom-bacgraound{
+  background-color: #adbec9;
+  
+}
+
+
+
+
+/* styling th imput like  color  and  font family */
+.custom-input {
+  width: 100%; 
+  color: #040303; 
+  font-family: 'Arial', sans-serif; 
+  padding: 10px;
+  border: 2px solid #130d0d;
+  border-radius: 4px;
+}
+
+/* adding a style on the lable like  color  size */
+.form-label {
+  color: #0a0808; 
+  font-family: 'Arial', sans-serif; 
+  display: block;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+/* to add the  border color */
+.custom-border{
+  border: #070505;
+}
+/* style a  form control like  a  input*/
+.form-control {
+  width: 100%; 
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  font-family: 'Arial', sans-serif; 
+}
+
+
+/* style the asterisk mark like  cololer  red  */
+.required-asterisk {
+  color: rgb(166, 12, 12);
+  margin-left: -1px;
+  font-size: larger;
+  
+}
+
+
+
